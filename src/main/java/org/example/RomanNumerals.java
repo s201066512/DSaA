@@ -1,7 +1,7 @@
 package org.example;
 import static org.example.RomanNumerals.Solution.romanToInt;
 public class RomanNumerals {
-    class Solution {
+    static class Solution {
         public static int romanToInt(String s) {
             int romanNumber = 0;
             for (int i = 0; i < s.length(); i++){

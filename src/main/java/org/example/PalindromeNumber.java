@@ -5,7 +5,7 @@ import static org.example.PalindromeNumber.Solution.isPalindrome;
 
  * */
 public class PalindromeNumber {
-    class Solution {
+    static class Solution {
         public static boolean isPalindrome(int x) {
             int reverseCount = 1;
             String stringX = String.valueOf(x);

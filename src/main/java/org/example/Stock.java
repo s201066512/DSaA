@@ -5,7 +5,7 @@ import static org.example.Stock.Solution.maxProfit;
 
 * */
 public class Stock {
-    class Solution {
+    static class Solution {
         public static int maxProfit(int[] prices) {
             int smallest = prices[0];
             int smallestIndex = 0;

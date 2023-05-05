@@ -1,6 +1,5 @@
 package org.example;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
 /*
@@ -58,7 +57,7 @@ and LinkedList<Integer> numbers2 = new LinkedList<>();?
 
 public class LinkedLists {
     public static void main(String[] args) {
-        LinkedList<Integer> numbers = new LinkedList<Integer>();
+        LinkedList<Integer> numbers = new LinkedList<>();
         numbers.add(2);
         numbers.add(1);
         LinkedList<Integer> numbers2 = new LinkedList<>();
